@@ -13,7 +13,7 @@ class Vec{
         let newY =  (this.y -= vector.y);
         return new Vec(newX,newY);
     }
-    length(){
+    get length(){
         return Math.sqrt((this.x * this.x) + (this.y * this.y));
     }
 }
